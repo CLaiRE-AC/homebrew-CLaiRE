@@ -33,8 +33,8 @@ class Claire < Formula
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/claire"
 
-    bash_completion.install libexec/"autocomplete-scripts/brew/bash" => "claire"
-    zsh_completion.install libexec/"autocomplete-scripts/brew/zsh/_claire"
+    # bash_completion.install libexec/"autocomplete-scripts/brew/bash" => "claire"
+    # zsh_completion.install libexec/"autocomplete-scripts/brew/zsh/_claire"
   end
 
   def caveats; <<~EOS
