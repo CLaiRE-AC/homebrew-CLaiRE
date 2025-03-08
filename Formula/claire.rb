@@ -5,15 +5,15 @@
 class Claire < Formula
   desc "CLaiRE CLI for use with CLaiRE SaaS API"
   homepage "https://claire.ac"
-  url "https://github.com/CLaiRE-AC/CLaiRE/releases/download/v0.1.0/claire-v0.1.0-d4133e7a-linux-x64.tar.xz"
-  sha256 "39dcabef10ada028ea83e45a4bc3f3cb6512d137b263744a6717c76f2795ed3a"
+  url "https://github.com/CLaiRE-AC/CLaiRE/releases/download/v0.1.0/claire-v0.1.0-d4133e7a-darwin-arm64.tar.xz"
+  sha256 "ac9431479b68cc62f25372d50bcaff11d5b4f226952deeefe9dc0fa350ce521d"
   version "0.1.0"
   version_scheme 1
 
   on_macos do
     on_arm do
-      url "https://github.com/CLaiRE-AC/CLaiRE/releases/download/v0.1.0/claire-v0.1.0-d4133e7a-linux-arm64.tar.xz"
-      sha256 "557119456c5079d88e9cff587e345a695fdc1d7ef47659806dc89f195cfb0f61"
+      url "https://github.com/CLaiRE-AC/CLaiRE/releases/download/v0.1.0/claire-v0.1.0-d4133e7a-darwin-arm64.tar.xz"
+      sha256 "ac9431479b68cc62f25372d50bcaff11d5b4f226952deeefe9dc0fa350ce521d"
     end
   end
 
